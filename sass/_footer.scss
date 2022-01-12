@@ -1,0 +1,54 @@
+.footer {
+  &__list {
+    list-style: none;
+    text-align: center;
+  }
+  &__list-social {
+    margin-top: 2rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__item {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    letter-spacing: 0.3rem;
+    transition: all 0.2s;
+    &:hover {
+      color: #817655;
+    }
+  }
+  &__social {
+    height: 3rem;
+    width: 3rem;
+    fill: white;
+    transition: all 0.2s;
+
+    &:hover {
+      fill: #817655;
+    }
+  }
+
+  &__logo {
+    margin-top: 2rem;
+    fill: white;
+    text-align: center;
+    height: 4rem;
+  }
+
+  &__img {
+    height: 25rem;
+  }
+}
+
+.copyright {
+  background-color: black;
+  padding: 2rem;
+  &__text {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    letter-spacing: 0.2rem;
+  }
+}

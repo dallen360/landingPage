@@ -1,0 +1,37 @@
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+  height: 80vh;
+
+  &__title {
+    font-size: 4.5rem;
+    letter-spacing: 0.3rem;
+    color: #87241b;
+  }
+  &__box {
+    padding: 4rem;
+    text-align: center;
+    width: 90%;
+    border: solid 0.5rem #817655;
+  }
+  &__box-title {
+    font-size: 3rem;
+    color: #817655;
+  }
+  &__box-subtitle {
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  &__button {
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1.5rem 2.5rem;
+    color: white;
+    background-color: #817655;
+    border: none;
+  }
+}

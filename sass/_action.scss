@@ -1,0 +1,39 @@
+.action {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  border: white solid 1rem;
+  &__title {
+    font-size: 5.5rem;
+    text-transform: uppercase;
+    width: 70%;
+    text-align: center;
+    color: white;
+  }
+
+  &__button {
+    margin-top: 1rem;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 1.5rem 2.5rem;
+    color: white;
+    background-color: #817655;
+  }
+  &-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)),
+      url(/images/gallery10.jpg);
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  &-2 {
+    background-size: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.2)),
+      url(/images/gallery4.jpg);
+    background-position: right;
+    background-attachment: fixed;
+  }
+}
